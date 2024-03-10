@@ -1,0 +1,56 @@
+h1{
+    color: brown;
+}
+
+nav{
+    background-color: black;    
+    height: 50px;   
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;        
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    height: auto;     
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;  
+    padding: 5px;  
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav ul li a:visited{
+    text-decoration: none;    
+}
+
+.registrarse{
+    
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
